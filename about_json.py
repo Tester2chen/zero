@@ -9,7 +9,7 @@
 import json
 
 
-# json.dumps()函数的使用，将字典转化为字符串
+# json.dumps()函数的使用，将字典转化为json字符串
 # dict1 = {"age": "12"}
 # json_info = json.dumps(dict1)
 # print("dict1的类型：{0}， dict1本身：{1}".format(type(dict1), dict1))
@@ -17,7 +17,7 @@ import json
 # print("json_info的类型：{0}， json_info本身：{1}".format(type(json_info), json_info))
 
 
-# json.loads函数的使用，将字符串转化为字典
+# json.loads函数的使用，将json字符串转化为字典
 # json_info = '{"age": "12"}'
 # dict1 = json.loads(json_info)
 # print("json_info的类型：{0}， json_info本身：{1}".format(type(json_info), json_info))
